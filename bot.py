@@ -99,4 +99,3 @@ elif data == "donate":
     await callback_query.message.edit_text("Поддержи создателя переводом в TON:", reply_markup=kb)
 
 if name == 'main': executor.start_polling(dp, skip_updates=True)
-
